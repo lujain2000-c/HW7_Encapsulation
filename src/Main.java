@@ -18,13 +18,13 @@ public class Main {
         }
         System.out.println(a1.debit(10000000));
 
-        if (a1.credit(1000) ==-1){
+        if (a1.transferTo(another,10000) == -1){
             System.out.println("the number more than what you have");
         }else {
-            System.out.println(a1.credit(1000));
+            System.out.println(a1.transferTo(another,10000));
         }
 
-        System.out.println(a1.transferTo(another,10000));
+
         System.out.println(a1.toString());
 
 
